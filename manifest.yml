@@ -1,0 +1,8 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: alchemy-cloud-d3
+  host: alchemy-cloud-d3
+  disk_quota: 1024M

@@ -1,0 +1,27 @@
+{
+  "name": "alchemy-cloud-d3",
+  "version": "0.0.1",
+  "description": "app to run Alchemy keyword/entity extraction on a website url and create a word cloud using d3 library (d3-layout-cloud)",
+  "repository": {},
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "IBM Corp.",
+  "contributors": [
+    {
+      "name": "Joe Kozhaya",
+      "email": "kozhaya@us.ibm.com"
+    }
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "*",
+    "cfenv": "1.0.x",
+    "express": "4.13.x",
+    "watson-developer-cloud": "^1.0.5"
+  },
+  "engines": {
+    "node": "4.2.x"
+  }
+}
