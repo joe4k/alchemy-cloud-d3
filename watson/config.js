@@ -9,7 +9,7 @@ var extend = require('extend');
 var services = {
   // http://www.alchemyapi.com/api/register.html
   alchemy_news_url: process.env.ALCHEMY_NEWS_URL || 'https://access.alchemyapi.com/calls/data/GetNews',
-  alchemy_api_key: process.env.ALCHEMY_API_KEY || 'apikey',
+  alchemy_api_key: process.env.ALCHEMY_API_KEY || 'ENTER_YOUR_APIKEY_HERE',
 };
 
 function getBluemixServiceConfig(name) {
